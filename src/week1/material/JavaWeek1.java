@@ -1,9 +1,14 @@
-package javaweek1;
+package week1.material;
 
 import java.util.Scanner;
 
 public class JavaWeek1 {
 
+	
+	/**
+	 * Entry point to java application
+	 * @param args
+	 */
 	public static void main(String[] args) {
 		
 		System.out.println("I am learning how to use github.");
