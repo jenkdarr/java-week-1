@@ -6,17 +6,18 @@ public class JavaWeek1 {
 
 	public static void main(String[] args) {
 		
+		System.out.println("I am learning how to use github.");
 		System.out.println("This is way cool!");
 		System.out.println("This is " + "way " + "cool! ");
 		
-		int myAge = 39;
+		int myAge = 49;
 		double cashOnHand = 45.00;
 		
 		//This turns the double into a decimal with two places
 		String cash = String.format("%.2f", cashOnHand);
 		
 		
-		System.out.println("I am " + myAge + " years old");
+		System.out.println("I am " + myAge + " years old.");
 		System.out.println("I have $ " + cashOnHand); //prints out I have $45.0
 		System.out.println("I have $ " + cash); //prints out I have $45.00
 		
