@@ -4,7 +4,7 @@ import java.util.Scanner;
 
 public class JavaWeek1 {
 
-	
+	//This is a multiline comment
 	/**
 	 * Entry point to java application
 	 * @param args
