@@ -27,16 +27,30 @@ public class JavaWeek1 {
 	 * String is like a sentence "This is a string"
 	 * 
 	 *
-	 * 
-	 * 
-	 * 
-	 * 
-	 * 
-	 * 
-	 * 
-	 * 
+	 * operator performs actions on operands
+	 * + -  *  /
+     * == is equality
+     * 
 	 */
+	
+    
+	
 	public static void main(String[] args) {
+		
+		int age = 57;
+		age = age + 8;
+		//The == means that the numbers must be equal to each other
+		boolean isAge50 = age == 50; 
+		boolean isAge65 = age == 65;
+		System.out.println(isAge50); //This will print out false
+		System.out.println(isAge65); //This will print out true
+		System.out.println(age); //This will print out 65
+		
+		String firstName = "Louis";
+		String lastName = "Benton";
+		String fullName = firstName + " " + lastName;//concatenation
+		System.out.println("My name is " + fullName);
+		
 		
 		System.out.println("I am learning how to use github.");
 		System.out.println("This is way cool!");
