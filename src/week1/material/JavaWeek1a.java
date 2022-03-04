@@ -22,10 +22,15 @@ public class JavaWeek1a {
 		float engineSize = 2.0F;
 		double weightOnEachTire = weightOfJeep / 4.00;
 		
+		//This can also be written this way
+		//debitCardAccountBalance -= jeepSoftTopPrice;
 		debitCardAccountBalance = debitCardAccountBalance - jeepSoftTopPrice;
+		
 		//This string format will make the dollar amount look like 500.00 instead
 		//of 500.0
 		String balance = String.format("%.2f", debitCardAccountBalance);
+		//Using the + with strings is called concatenation, it is not the same as 
+		//a math operation 
 		System.out.println("I have $" + balance + " left after buying a soft top.");
 		System.out.println("Weight on each tire is " + weightOnEachTire);
 		System.out.println("I got lost going " + lostDirection + " from " + lastKnownLocation);

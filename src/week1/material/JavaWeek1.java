@@ -8,13 +8,40 @@ public class JavaWeek1 {
 	/**
 	 * Entry point to java application
 	 * @param args
+	 * 
+	 * primitive data types
+	 * 
+	 * byte -128 up to 127  This is 8 bits
+	 * short -32768 up to 32767 This is 16 bits
+	 * 
+	 * int -2147483648  up to 2147483647 This is 32 bits    
+	 * long is a much larger number      This is 64 bits
+	 * 
+	 * float -3.4028235  up to 3.4028235 This is 32 bits
+	 * double is a much larger number    This is 64 bits
+	 * 
+	 * char is a single character 'A'
+	 * boolean-true or false
+	 *
+	 * Objects
+	 * String is like a sentence "This is a string"
+	 * 
+	 *
+	 * 
+	 * 
+	 * 
+	 * 
+	 * 
+	 * 
+	 * 
+	 * 
 	 */
 	public static void main(String[] args) {
 		
 		System.out.println("I am learning how to use github.");
 		System.out.println("This is way cool!");
 		System.out.println("This is " + "way " + "cool! ");
-		
+		//variable declaration-type identifier-assignment operator-value-semicolon
 		int myAge = 49;
 		double cashOnHand = 45.00;
 		
