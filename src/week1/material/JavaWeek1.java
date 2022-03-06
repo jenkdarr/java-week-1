@@ -4,7 +4,7 @@ import java.util.Scanner;
 
 public class JavaWeek1 {
 
-	//This is a multiline comment
+	//This is a multiline comment for java
 	/**
 	 * Entry point to java application
 	 * @param args
@@ -38,7 +38,7 @@ public class JavaWeek1 {
 	public static void main(String[] args) {
 		
 		int age = 57;
-		age = age + 8;
+		age = age + 9;
 		//The == means that the numbers must be equal to each other
 		boolean isAge50 = age == 50; 
 		boolean isAge65 = age == 65;
