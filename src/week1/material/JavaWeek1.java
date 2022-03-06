@@ -6,6 +6,7 @@ public class JavaWeek1 {
 
 	//This is a multiline comment for java
 	/**
+	 * Learning how to use git hub
 	 * Entry point to java application
 	 * @param args
 	 * 
