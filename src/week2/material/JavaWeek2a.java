@@ -35,7 +35,7 @@ public class JavaWeek2a {
         int x = 0;
         while (x < 10) {
         	System.out.println(x);
-        	x++;
+        	x++;  //This will print out 0123456789
         }
 	
 	}
